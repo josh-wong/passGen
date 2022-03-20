@@ -1,0 +1,40 @@
+site_name: passGen documentation
+site_url: https://josh-wong.github.io/passGen
+
+repo_name: josh-wong/passGen
+repo_url: https://github.com/josh-wong/passGen
+edit_uri: edit/main/docs/
+
+plugins:
+  - search
+
+theme:
+  name: material
+  favicon: assets/images/favicon.png
+  logo: assets/images/mkdocs_passGen_logo.png
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+      primary: blue
+      accent: blue
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
+      primary: blue
+      accent: blue
+  features:
+    - search.suggest
+
+nav:
+  - Overview: 'index.md'
+  - Generating a password: '01_generating-passwords.md'
+  - Contributions: '02_contributions.md'
+  - Donations: '03_donations.md'
+  - 🏠return to josh-wong: 'https://josh-wong.github.io/'
