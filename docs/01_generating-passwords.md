@@ -8,7 +8,7 @@ To create a 10-character password containing **symbols**, **numbers**, **upperca
 
 Click **Copy** to copy the password.
 
-![Example: Generating a password with symbols](https://github.com/josh-wong/passGen/tree/main/docs/assets/screenshots/password_with_symbols.mp4)
+![Example: Generating a password with symbols](https://github.com/josh-wong/passGen/blob/main/docs/assets/screenshots/password_with_symbols.mp4?raw=true)
 
 > **Note:** To see the password that you generated, click the asterisks masking the password.
 
@@ -18,6 +18,6 @@ To create a 10-character password containing **numbers**, **uppercase letters**,
 
 Click **Copy** to copy the password.
 
-![Example: Generating a password without symbols](https://github.com/josh-wong/passGen/tree/main/docs/assets/screenshots/password_without_symbols.mp4)
+![Example: Generating a password without symbols](https://github.com/josh-wong/passGen/blob/main/docs/assets/screenshots/password_without_symbols.mp4?raw=true)
 
 > **Note:** To see the password that you generated, click the asterisks masking the password.

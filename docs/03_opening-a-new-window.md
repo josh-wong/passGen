@@ -2,4 +2,4 @@
 
 If you need to generate multiple passwords simultaneously, go to **File** and click **Open new window** to open another window.
 
-<SCREENSHOT>
+![Example: Opening a new window](https://github.com/josh-wong/passGen/blob/main/docs/assets/screenshots/open_new_window.mp4?raw=true)

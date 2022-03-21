@@ -1,5 +1,5 @@
-# How to reset generated passwords
+# How to clear generated passwords
 
 To clear the passwords you generated, go to **File** and click **Clear**.
 
-<SCREENSHOT>
+![Example: Clearing generated passwords](https://github.com/josh-wong/passGen/blob/main/docs/assets/screenshots/clear_passwords.mp4?raw=true)
