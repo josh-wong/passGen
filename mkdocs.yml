@@ -1,8 +1,8 @@
 site_name: passGen documentation
-site_url: https://josh-wong.github.io/passGen
+site_url: https://josh-wong.github.io/passgen
 
 repo_name: josh-wong/passGen
-repo_url: https://github.com/josh-wong/passGen
+repo_url: https://github.com/josh-wong/passgen
 edit_uri: edit/main/docs/
 
 plugins:
