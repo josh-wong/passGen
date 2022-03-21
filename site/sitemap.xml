@@ -26,12 +26,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josh-wong.github.io/passGen/05_contributions/</loc>
+         <loc>https://josh-wong.github.io/passGen/05_references/</loc>
          <lastmod>2022-03-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josh-wong.github.io/passGen/06_donations/</loc>
+         <loc>https://josh-wong.github.io/passGen/06_contributions/</loc>
+         <lastmod>2022-03-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://josh-wong.github.io/passGen/07_donations/</loc>
          <lastmod>2022-03-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
