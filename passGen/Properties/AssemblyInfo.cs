@@ -9,9 +9,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("passGen")]
 [assembly: AssemblyDescription("Simple password generator")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Josh")]
+[assembly: AssemblyCompany("inoshishi")]
 [assembly: AssemblyProduct("passGen")]
-[assembly: AssemblyCopyright("Copyright © Josh 2017")]
+[assembly: AssemblyCopyright("Copyright © inoshishi 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -36,4 +36,3 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
 [assembly: NeutralResourcesLanguage("en-US")]
-

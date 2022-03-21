@@ -51,7 +51,7 @@ namespace passGen
             int lengthOfPassword = 8;
 
             // Generate a password with symbols, uppercase letters, lowercase letters, and numbers; symbols duplicated to increase likelihood of symbols being included
-            string valid = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*-=()?_!@#$%^&*-=()?_";
+            string valid = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@^&-_!@^&-_";
             StringBuilder strB = new StringBuilder(100);
             Random random = new Random();
             while (0 < lengthOfPassword--)

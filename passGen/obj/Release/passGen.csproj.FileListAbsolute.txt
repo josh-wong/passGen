@@ -1,0 +1,13 @@
+C:\Users\joshu\OneDrive\Documents\GitHub\passGen\passGen\bin\Release\passGen.exe.config
+C:\Users\joshu\OneDrive\Documents\GitHub\passGen\passGen\bin\Release\passGen.exe
+C:\Users\joshu\OneDrive\Documents\GitHub\passGen\passGen\bin\Release\passGen.pdb
+C:\Users\joshu\OneDrive\Documents\GitHub\passGen\passGen\bin\Release\Microsoft.Data.Tools.Components.dll
+C:\Users\joshu\OneDrive\Documents\GitHub\passGen\passGen\obj\Release\passGen.csproj.AssemblyReference.cache
+C:\Users\joshu\OneDrive\Documents\GitHub\passGen\passGen\obj\Release\passGen.csproj.SuggestedBindingRedirects.cache
+C:\Users\joshu\OneDrive\Documents\GitHub\passGen\passGen\obj\Release\passGen.Form1.resources
+C:\Users\joshu\OneDrive\Documents\GitHub\passGen\passGen\obj\Release\passGen.Properties.Resources.resources
+C:\Users\joshu\OneDrive\Documents\GitHub\passGen\passGen\obj\Release\passGen.csproj.GenerateResource.cache
+C:\Users\joshu\OneDrive\Documents\GitHub\passGen\passGen\obj\Release\passGen.csproj.CoreCompileInputs.cache
+C:\Users\joshu\OneDrive\Documents\GitHub\passGen\passGen\obj\Release\passGen.csproj.CopyComplete
+C:\Users\joshu\OneDrive\Documents\GitHub\passGen\passGen\obj\Release\passGen.exe
+C:\Users\joshu\OneDrive\Documents\GitHub\passGen\passGen\obj\Release\passGen.pdb
