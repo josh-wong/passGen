@@ -35,6 +35,9 @@ theme:
 nav:
   - Overview: 'index.md'
   - Generating a password: '01_generating-passwords.md'
-  - Contributions: '02_contributions.md'
-  - Donations: '03_donations.md'
+  - Clearing a password: '02_clearing-passwords.md'
+  - Opening a new window: '03_opening-a-new-window.md'
+  - Uninstalling the app: '04_uninstalling.md'
+  - Contributions: '05_contributions.md'
+  - Donations: '06_donations.md'
   - 🏠return to josh-wong: 'https://josh-wong.github.io/'
