@@ -146,6 +146,33 @@
   <ItemGroup>
     <None Include="Resources\pg_icon_blue.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pg_icon_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\app-window-add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bin-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notes-diary.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notes-checklist-flip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\conversation-question-warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\information-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\pg_icon_blue - 32x32.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.Sql.UnitTesting.targets" Condition="'$(SQLDBExtensionsRefPath)' != ''" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.Sql.UnitTesting.targets" Condition="'$(SQLDBExtensionsRefPath)' == ''" />

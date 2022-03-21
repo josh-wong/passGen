@@ -29,101 +29,111 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.generate_pw = new System.Windows.Forms.Button();
-            this.copy = new System.Windows.Forms.Button();
-            this.generate_pw_s = new System.Windows.Forms.Button();
-            this.copy_s = new System.Windows.Forms.Button();
+            this.Generate_pw = new System.Windows.Forms.Button();
+            this.Copy = new System.Windows.Forms.Button();
+            this.Generate_pw_s = new System.Windows.Forms.Button();
+            this.Copy_s = new System.Windows.Forms.Button();
             this.RandomNumber = new System.Windows.Forms.MaskedTextBox();
             this.RandomNumber_s = new System.Windows.Forms.MaskedTextBox();
-            this.reset = new System.Windows.Forms.Button();
-            this.exit = new System.Windows.Forms.Button();
+            this.menuStrip = new System.Windows.Forms.MenuStrip();
+            this.File_ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Help_ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
+            this.OpenNewWindow_ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Clear_ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Exit_ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Documentation_ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ReleaseNotes_ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ReportIssue_ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.About_ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
-            // generate_pw
+            // Generate_pw
             // 
-            this.generate_pw.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.generate_pw.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.generate_pw.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
-            this.generate_pw.FlatAppearance.BorderSize = 0;
-            this.generate_pw.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.generate_pw.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.generate_pw.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.generate_pw.Location = new System.Drawing.Point(18, 22);
-            this.generate_pw.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.generate_pw.Name = "generate_pw";
-            this.generate_pw.Size = new System.Drawing.Size(116, 128);
-            this.generate_pw.TabIndex = 0;
-            this.generate_pw.Text = "Password without symbols";
-            this.generate_pw.UseVisualStyleBackColor = false;
-            this.generate_pw.Click += new System.EventHandler(this.generate_pw_Click);
+            this.Generate_pw.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.Generate_pw.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Generate_pw.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.Generate_pw.FlatAppearance.BorderSize = 0;
+            this.Generate_pw.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Generate_pw.Font = new System.Drawing.Font("Segoe UI Variable Display", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Generate_pw.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Generate_pw.Location = new System.Drawing.Point(318, 123);
+            this.Generate_pw.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Generate_pw.Name = "Generate_pw";
+            this.Generate_pw.Size = new System.Drawing.Size(200, 84);
+            this.Generate_pw.TabIndex = 0;
+            this.Generate_pw.Text = "Create a password without symbols";
+            this.Generate_pw.UseVisualStyleBackColor = false;
+            this.Generate_pw.Click += new System.EventHandler(this.Generate_pw_Click);
             // 
-            // copy
+            // Copy
             // 
-            this.copy.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.copy.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.copy.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
-            this.copy.FlatAppearance.BorderSize = 0;
-            this.copy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.copy.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.copy.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.copy.Location = new System.Drawing.Point(354, 62);
-            this.copy.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.copy.Name = "copy";
-            this.copy.Size = new System.Drawing.Size(80, 39);
-            this.copy.TabIndex = 5;
-            this.copy.Text = "Copy";
-            this.copy.UseVisualStyleBackColor = false;
-            this.copy.Visible = false;
-            this.copy.Click += new System.EventHandler(this.copy_Click);
+            this.Copy.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.Copy.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Copy.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.Copy.FlatAppearance.BorderSize = 0;
+            this.Copy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Copy.Font = new System.Drawing.Font("Segoe UI Variable Display", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Copy.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Copy.Location = new System.Drawing.Point(318, 298);
+            this.Copy.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Copy.Name = "Copy";
+            this.Copy.Size = new System.Drawing.Size(200, 45);
+            this.Copy.TabIndex = 5;
+            this.Copy.Text = "Copy";
+            this.Copy.UseVisualStyleBackColor = false;
+            this.Copy.Visible = false;
+            this.Copy.Click += new System.EventHandler(this.Copy_Click);
             // 
-            // generate_pw_s
+            // Generate_pw_s
             // 
-            this.generate_pw_s.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.generate_pw_s.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.generate_pw_s.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
-            this.generate_pw_s.FlatAppearance.BorderSize = 0;
-            this.generate_pw_s.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.generate_pw_s.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.generate_pw_s.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.generate_pw_s.Location = new System.Drawing.Point(18, 172);
-            this.generate_pw_s.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.generate_pw_s.Name = "generate_pw_s";
-            this.generate_pw_s.Size = new System.Drawing.Size(116, 128);
-            this.generate_pw_s.TabIndex = 6;
-            this.generate_pw_s.Text = "Password with symbols";
-            this.generate_pw_s.UseVisualStyleBackColor = false;
-            this.generate_pw_s.Click += new System.EventHandler(this.generate_pw_s_Click);
+            this.Generate_pw_s.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.Generate_pw_s.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Generate_pw_s.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.Generate_pw_s.FlatAppearance.BorderSize = 0;
+            this.Generate_pw_s.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Generate_pw_s.Font = new System.Drawing.Font("Segoe UI Variable Display", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Generate_pw_s.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Generate_pw_s.Location = new System.Drawing.Point(40, 123);
+            this.Generate_pw_s.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Generate_pw_s.Name = "Generate_pw_s";
+            this.Generate_pw_s.Size = new System.Drawing.Size(200, 84);
+            this.Generate_pw_s.TabIndex = 6;
+            this.Generate_pw_s.Text = "Create a password with symbols";
+            this.Generate_pw_s.UseVisualStyleBackColor = false;
+            this.Generate_pw_s.Click += new System.EventHandler(this.Generate_pw_s_Click);
             // 
-            // copy_s
+            // Copy_s
             // 
-            this.copy_s.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.copy_s.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.copy_s.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
-            this.copy_s.FlatAppearance.BorderSize = 0;
-            this.copy_s.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.copy_s.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.copy_s.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.copy_s.Location = new System.Drawing.Point(354, 212);
-            this.copy_s.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.copy_s.Name = "copy_s";
-            this.copy_s.Size = new System.Drawing.Size(80, 39);
-            this.copy_s.TabIndex = 8;
-            this.copy_s.Text = "Copy";
-            this.copy_s.UseVisualStyleBackColor = false;
-            this.copy_s.Visible = false;
-            this.copy_s.Click += new System.EventHandler(this.copy_s_Click);
+            this.Copy_s.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.Copy_s.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Copy_s.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.Copy_s.FlatAppearance.BorderSize = 0;
+            this.Copy_s.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Copy_s.Font = new System.Drawing.Font("Segoe UI Variable Display", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Copy_s.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Copy_s.Location = new System.Drawing.Point(40, 298);
+            this.Copy_s.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Copy_s.Name = "Copy_s";
+            this.Copy_s.Size = new System.Drawing.Size(200, 45);
+            this.Copy_s.TabIndex = 8;
+            this.Copy_s.Text = "Copy";
+            this.Copy_s.UseVisualStyleBackColor = false;
+            this.Copy_s.Visible = false;
+            this.Copy_s.Click += new System.EventHandler(this.Copy_s_Click);
             // 
             // RandomNumber
             // 
             this.RandomNumber.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.RandomNumber.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.RandomNumber.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.RandomNumber.Location = new System.Drawing.Point(156, 62);
+            this.RandomNumber.Font = new System.Drawing.Font("Segoe UI Variable Display", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RandomNumber.Location = new System.Drawing.Point(318, 230);
             this.RandomNumber.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.RandomNumber.Name = "RandomNumber";
             this.RandomNumber.PasswordChar = '*';
             this.RandomNumber.ReadOnly = true;
-            this.RandomNumber.Size = new System.Drawing.Size(200, 39);
+            this.RandomNumber.Size = new System.Drawing.Size(200, 45);
             this.RandomNumber.TabIndex = 9;
             this.RandomNumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.RandomNumber.Visible = false;
@@ -134,72 +144,162 @@
             // 
             this.RandomNumber_s.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.RandomNumber_s.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.RandomNumber_s.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.RandomNumber_s.Location = new System.Drawing.Point(156, 212);
+            this.RandomNumber_s.Font = new System.Drawing.Font("Segoe UI Variable Display", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RandomNumber_s.Location = new System.Drawing.Point(40, 230);
             this.RandomNumber_s.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.RandomNumber_s.Name = "RandomNumber_s";
             this.RandomNumber_s.PasswordChar = '*';
             this.RandomNumber_s.ReadOnly = true;
-            this.RandomNumber_s.Size = new System.Drawing.Size(200, 39);
+            this.RandomNumber_s.Size = new System.Drawing.Size(200, 45);
             this.RandomNumber_s.TabIndex = 10;
             this.RandomNumber_s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.RandomNumber_s.Visible = false;
             this.RandomNumber_s.MouseDown += new System.Windows.Forms.MouseEventHandler(this.RandomNumber_s_MouseDown);
             this.RandomNumber_s.MouseUp += new System.Windows.Forms.MouseEventHandler(this.RandomNumber_s_MouseUp);
             // 
-            // reset
+            // menuStrip
             // 
-            this.reset.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.reset.FlatAppearance.BorderSize = 0;
-            this.reset.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.reset.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.reset.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.reset.Location = new System.Drawing.Point(18, 322);
-            this.reset.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.reset.Name = "reset";
-            this.reset.Size = new System.Drawing.Size(116, 48);
-            this.reset.TabIndex = 11;
-            this.reset.Text = "Reset";
-            this.reset.UseVisualStyleBackColor = false;
-            this.reset.Click += new System.EventHandler(this.reset_Click);
+            this.menuStrip.Font = new System.Drawing.Font("Segoe UI Variable Display", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuStrip.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
+            this.menuStrip.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.File_ToolStripMenuItem,
+            this.Help_ToolStripMenuItem});
+            this.menuStrip.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip.Name = "menuStrip";
+            this.menuStrip.Size = new System.Drawing.Size(558, 35);
+            this.menuStrip.TabIndex = 12;
+            this.menuStrip.Text = "menuStrip";
+            this.menuStrip.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.MenuStrip_ItemClicked);
             // 
-            // exit
+            // File_ToolStripMenuItem
             // 
-            this.exit.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.exit.FlatAppearance.BorderSize = 0;
-            this.exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.exit.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.exit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.exit.Location = new System.Drawing.Point(318, 322);
-            this.exit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.exit.Name = "exit";
-            this.exit.Size = new System.Drawing.Size(116, 48);
-            this.exit.TabIndex = 12;
-            this.exit.Text = "Exit";
-            this.exit.UseVisualStyleBackColor = false;
-            this.exit.Click += new System.EventHandler(this.exit_Click);
+            this.File_ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.OpenNewWindow_ToolStripMenuItem,
+            this.Clear_ToolStripMenuItem,
+            this.Exit_ToolStripMenuItem});
+            this.File_ToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Variable Display", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.File_ToolStripMenuItem.Name = "File_ToolStripMenuItem";
+            this.File_ToolStripMenuItem.Size = new System.Drawing.Size(58, 31);
+            this.File_ToolStripMenuItem.Text = "File";
+            // 
+            // Help_ToolStripMenuItem
+            // 
+            this.Help_ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.Documentation_ToolStripMenuItem,
+            this.ReleaseNotes_ToolStripMenuItem,
+            this.ReportIssue_ToolStripMenuItem,
+            this.About_ToolStripMenuItem});
+            this.Help_ToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Variable Display", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Help_ToolStripMenuItem.Name = "Help_ToolStripMenuItem";
+            this.Help_ToolStripMenuItem.Size = new System.Drawing.Size(69, 31);
+            this.Help_ToolStripMenuItem.Text = "Help";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI Variable Display", 10F);
+            this.label1.Location = new System.Drawing.Point(40, 60);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(479, 27);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Create a randomly generated, 10-character password.";
+            // 
+            // OpenNewWindow_ToolStripMenuItem
+            // 
+            this.OpenNewWindow_ToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Variable Display", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OpenNewWindow_ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("OpenNewWindow_ToolStripMenuItem.Image")));
+            this.OpenNewWindow_ToolStripMenuItem.Margin = new System.Windows.Forms.Padding(0, 2, 2, 2);
+            this.OpenNewWindow_ToolStripMenuItem.Name = "OpenNewWindow_ToolStripMenuItem";
+            this.OpenNewWindow_ToolStripMenuItem.Size = new System.Drawing.Size(275, 36);
+            this.OpenNewWindow_ToolStripMenuItem.Text = "Open new window";
+            this.OpenNewWindow_ToolStripMenuItem.Click += new System.EventHandler(this.OpenNewWindow_ToolStripMenuItem_Click);
+            // 
+            // Clear_ToolStripMenuItem
+            // 
+            this.Clear_ToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Variable Display", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Clear_ToolStripMenuItem.Image = global::passGen.Properties.Resources.bin_1;
+            this.Clear_ToolStripMenuItem.Margin = new System.Windows.Forms.Padding(0, 2, 2, 2);
+            this.Clear_ToolStripMenuItem.Name = "Clear_ToolStripMenuItem";
+            this.Clear_ToolStripMenuItem.Size = new System.Drawing.Size(275, 36);
+            this.Clear_ToolStripMenuItem.Text = "Clear";
+            this.Clear_ToolStripMenuItem.Click += new System.EventHandler(this.Clear_ToolStripMenuItem_Click);
+            // 
+            // Exit_ToolStripMenuItem
+            // 
+            this.Exit_ToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Variable Display", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Exit_ToolStripMenuItem.Image = global::passGen.Properties.Resources.close;
+            this.Exit_ToolStripMenuItem.Margin = new System.Windows.Forms.Padding(0, 2, 2, 2);
+            this.Exit_ToolStripMenuItem.Name = "Exit_ToolStripMenuItem";
+            this.Exit_ToolStripMenuItem.Size = new System.Drawing.Size(275, 36);
+            this.Exit_ToolStripMenuItem.Text = "Exit";
+            this.Exit_ToolStripMenuItem.Click += new System.EventHandler(this.Exit_ToolStripMenuItem_Click);
+            // 
+            // Documentation_ToolStripMenuItem
+            // 
+            this.Documentation_ToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Variable Display", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Documentation_ToolStripMenuItem.Image = global::passGen.Properties.Resources.notes_diary;
+            this.Documentation_ToolStripMenuItem.Margin = new System.Windows.Forms.Padding(0, 2, 2, 2);
+            this.Documentation_ToolStripMenuItem.Name = "Documentation_ToolStripMenuItem";
+            this.Documentation_ToolStripMenuItem.Size = new System.Drawing.Size(270, 36);
+            this.Documentation_ToolStripMenuItem.Text = "Documentation";
+            this.Documentation_ToolStripMenuItem.Click += new System.EventHandler(this.Documentation_ToolStripMenuItem_Click);
+            // 
+            // ReleaseNotes_ToolStripMenuItem
+            // 
+            this.ReleaseNotes_ToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Variable Display", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ReleaseNotes_ToolStripMenuItem.Image = global::passGen.Properties.Resources.notes_checklist_flip;
+            this.ReleaseNotes_ToolStripMenuItem.Margin = new System.Windows.Forms.Padding(0, 2, 2, 2);
+            this.ReleaseNotes_ToolStripMenuItem.Name = "ReleaseNotes_ToolStripMenuItem";
+            this.ReleaseNotes_ToolStripMenuItem.Size = new System.Drawing.Size(270, 36);
+            this.ReleaseNotes_ToolStripMenuItem.Text = "Release notes";
+            this.ReleaseNotes_ToolStripMenuItem.Click += new System.EventHandler(this.ReleaseNotes_ToolStripMenuItem_Click);
+            // 
+            // ReportIssue_ToolStripMenuItem
+            // 
+            this.ReportIssue_ToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Variable Display", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ReportIssue_ToolStripMenuItem.Image = global::passGen.Properties.Resources.conversation_question_warning;
+            this.ReportIssue_ToolStripMenuItem.Margin = new System.Windows.Forms.Padding(0, 2, 2, 2);
+            this.ReportIssue_ToolStripMenuItem.Name = "ReportIssue_ToolStripMenuItem";
+            this.ReportIssue_ToolStripMenuItem.Size = new System.Drawing.Size(270, 36);
+            this.ReportIssue_ToolStripMenuItem.Text = "Report issue";
+            this.ReportIssue_ToolStripMenuItem.Click += new System.EventHandler(this.ReportIssue_ToolStripMenuItem_Click);
+            // 
+            // About_ToolStripMenuItem
+            // 
+            this.About_ToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Variable Display", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.About_ToolStripMenuItem.Image = global::passGen.Properties.Resources.information_circle;
+            this.About_ToolStripMenuItem.Margin = new System.Windows.Forms.Padding(0, 2, 2, 2);
+            this.About_ToolStripMenuItem.Name = "About_ToolStripMenuItem";
+            this.About_ToolStripMenuItem.Size = new System.Drawing.Size(270, 36);
+            this.About_ToolStripMenuItem.Text = "About passGen";
+            this.About_ToolStripMenuItem.Click += new System.EventHandler(this.About_ToolStripMenuItem_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(452, 394);
-            this.Controls.Add(this.exit);
-            this.Controls.Add(this.reset);
-            this.Controls.Add(this.copy_s);
-            this.Controls.Add(this.generate_pw_s);
-            this.Controls.Add(this.copy);
-            this.Controls.Add(this.generate_pw);
+            this.ClientSize = new System.Drawing.Size(558, 384);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Copy_s);
+            this.Controls.Add(this.Generate_pw_s);
+            this.Controls.Add(this.Copy);
+            this.Controls.Add(this.Generate_pw);
             this.Controls.Add(this.RandomNumber);
             this.Controls.Add(this.RandomNumber_s);
+            this.Controls.Add(this.menuStrip);
+            this.Font = new System.Drawing.Font("Segoe UI Variable Display", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MainMenuStrip = this.menuStrip;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "passGen";
+            this.menuStrip.ResumeLayout(false);
+            this.menuStrip.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -207,14 +307,23 @@
 
         #endregion
 
-        private System.Windows.Forms.Button generate_pw;
-        private System.Windows.Forms.Button copy;
-        private System.Windows.Forms.Button generate_pw_s;
-        private System.Windows.Forms.Button copy_s;
+        private System.Windows.Forms.Button Generate_pw;
+        private System.Windows.Forms.Button Copy;
+        private System.Windows.Forms.Button Generate_pw_s;
+        private System.Windows.Forms.Button Copy_s;
         private System.Windows.Forms.MaskedTextBox RandomNumber;
         private System.Windows.Forms.MaskedTextBox RandomNumber_s;
-        private System.Windows.Forms.Button reset;
-        private System.Windows.Forms.Button exit;
+        private System.Windows.Forms.MenuStrip menuStrip;
+        private System.Windows.Forms.ToolStripMenuItem File_ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem Clear_ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem Exit_ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem Help_ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem OpenNewWindow_ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem Documentation_ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ReleaseNotes_ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ReportIssue_ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem About_ToolStripMenuItem;
+        private System.Windows.Forms.Label label1;
     }
 }
 

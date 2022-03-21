@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -22,12 +23,48 @@ namespace passGen
             InitializeComponent();
         }
 
-        protected void generate_pw_Click(object sender, EventArgs e)
+        // menuStrip items - File
+        private void OpenNewWindow_ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            int lengthOfPassword = 8;
+            new Form1().Show();
+        }
+        private void Clear_ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RandomNumber.Visible = false;
+            Copy.Visible = false;
+            RandomNumber_s.Visible = false;
+            Copy_s.Visible = false;
+        }
+        private void Exit_ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        // menuStrip items - Help
+        private void Documentation_ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://josh-wong.github.io/passGen");
+        }
+        private void ReleaseNotes_ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://github.com/josh-wong/passGen/releases");
+        }
+        private void ReportIssue_ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://github.com/josh-wong/passGen/issues");
+        }
+        private void About_ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Version: 2.0.0 | Updated: March 21, 2022" + Environment.NewLine + "MIT License." + Environment.NewLine + "" + Environment.NewLine + "Created by josh & inoshishi.", "About passGen", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        // Main passGen window
+        protected void Generate_pw_Click(object sender, EventArgs e)
+        {
+            int lengthOfPassword = 10;
 
             // Generate a password with uppercase letters, lowercase letters, and numbers
-            string valid = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+            string valid = "abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNOPQRSTUVWXYZ12345678901234567890";
             StringBuilder strB = new StringBuilder(100);
             Random random = new Random();
             while (0 < lengthOfPassword--)
@@ -37,21 +74,21 @@ namespace passGen
             RandomNumber.Text = strB.ToString();
 
             RandomNumber.Visible = true;
-            copy.Visible = true;
+            Copy.Visible = true;
         }
 
-        private void copy_Click(object sender, EventArgs e)
+        private void Copy_Click(object sender, EventArgs e)
         {
             Clipboard.SetText(RandomNumber.Text);
             MessageBox.Show("Password copied.", "passGen");
         }
 
-        protected void generate_pw_s_Click(object sender, EventArgs e)
+        protected void Generate_pw_s_Click(object sender, EventArgs e)
         {
-            int lengthOfPassword = 8;
+            int lengthOfPassword = 10;
 
             // Generate a password with symbols, uppercase letters, lowercase letters, and numbers; symbols duplicated to increase likelihood of symbols being included
-            string valid = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@^&-_!@^&-_";
+            string valid = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ12345678901234567890!@^&-()!@^&-()!@^&-()";
             StringBuilder strB = new StringBuilder(100);
             Random random = new Random();
             while (0 < lengthOfPassword--)
@@ -61,10 +98,10 @@ namespace passGen
             RandomNumber_s.Text = strB.ToString();
 
             RandomNumber_s.Visible = true;
-            copy_s.Visible = true;
+            Copy_s.Visible = true;
         }
 
-        private void copy_s_Click(object sender, EventArgs e)
+        private void Copy_s_Click(object sender, EventArgs e)
         {
             Clipboard.SetText(RandomNumber_s.Text);
             MessageBox.Show("Password copied.", "passGen");
@@ -89,18 +126,10 @@ namespace passGen
         {
             RandomNumber_s.PasswordChar = '*';
         }
-
-        private void reset_Click(object sender, EventArgs e)
+        
+        private void MenuStrip_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
-            RandomNumber.Visible = false;
-            copy.Visible = false;
-            RandomNumber_s.Visible = false;
-            copy_s.Visible = false;
-        }
 
-        private void exit_Click(object sender, EventArgs e)
-        {
-            System.Windows.Forms.Application.Exit();
         }
     }
 }
