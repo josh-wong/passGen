@@ -11,7 +11,7 @@ plugins:
 theme:
   name: material
   favicon: assets/images/favicon.png
-  logo: assets/images/mkdocs_passGen_logo.png
+  logo: assets/images/mkdocs_passgen_logo.png
   icon:
     repo: fontawesome/brands/github
   palette:
