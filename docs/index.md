@@ -6,8 +6,7 @@ passGen is a lightweight Windows app for creating randomly generated, 8-characte
 - Uppercase letters, lowercase letters, numbers, and symbols
 
 <!-- # HTML and CSS for passGen download button -->
-<!-- # CSS for passGen download button -->
-<!-- Style buttons -->
+<!-- ## Style buttons -->
 <style>
 .btn {
   background-color: DodgerBlue;
@@ -18,7 +17,7 @@ passGen is a lightweight Windows app for creating randomly generated, 8-characte
   font-size: 20px;
 }
 
-<!-- Darker background on mouse-over -->
+<!-- ## Darker background on mouse-over -->
 .btn:hover {
   background-color: RoyalBlue;
 }
