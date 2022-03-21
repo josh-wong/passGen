@@ -47,7 +47,7 @@ namespace passGen
         }
         private void ReleaseNotes_ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Process.Start("https://github.com/josh-wong/passGen/releases");
+            Process.Start("https://github.com/josh-wong/passGen/releases/tag/v2.0.0");
         }
         private void ReportIssue_ToolStripMenuItem_Click(object sender, EventArgs e)
         {

@@ -40,6 +40,12 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_5B26EAEBBF99FBB6AF152F91AE4573DF"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_F1E10205F2134041A1C2F7FD40C5BA9F"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -47,12 +53,6 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_D7AF14A49C9F1A6A7BADD4A774EDB555"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_5B26EAEBBF99FBB6AF152F91AE4573DF"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -288,25 +288,25 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:passGen"
-        "ProductCode" = "8:{8202A123-3090-4C0A-B8AC-B748827EEB72}"
-        "PackageCode" = "8:{39D44A79-0D56-462C-8CBE-5ADE4CBE0C73}"
+        "ProductCode" = "8:{5586CB12-976E-4DA9-BB1E-09A6544C9141}"
+        "PackageCode" = "8:{E46F40F0-6311-4662-8F5F-42CED9510CF7}"
         "UpgradeCode" = "8:{6A510BB8-884D-456B-8588-EA73D24AC958}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:inoshishi"
+        "ProductVersion" = "8:2.0.0"
+        "Manufacturer" = "8:josh & inoshishi"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:https://github.com/josh-wong/passGen/issues"
         "Title" = "8:passGen Installer"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:inoshishi"
+        "ARPCONTACT" = "8:josh & inoshishi"
         "Keywords" = "8:passwords"
         "ARPCOMMENTS" = "8:Simple password generator"
         "ARPURLINFOABOUT" = "8:https://github.com/josh-wong/passGen"
-        "ARPPRODUCTICON" = "8:"
+        "ARPPRODUCTICON" = "8:_4056FB481E614D2391B5855FA4FB85E9"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
