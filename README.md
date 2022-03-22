@@ -1,6 +1,7 @@
 # passGen
 
-passGen is an app for creating randomly generated, 10-character passwords.
+passGen is a Windows app for creating randomly generated, 10-character passwords.
 
 ## Documentation
-For a better content-viewing experience and to more easily navigate the passGen documentation, please see [passGen documentation](https://josh-wong.github.io/passGen).
+
+For an enhanced content-viewing experience, please see [passGen documentation](https://josh-wong.github.io/passGen).
