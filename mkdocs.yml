@@ -3,7 +3,9 @@ site_url: https://josh-wong.github.io/passGen/
 
 repo_name: josh-wong/passGen
 repo_url: https://github.com/josh-wong/passGen/
-edit_uri: blob/main/docs/
+# hides the edit button since there's a conflict between editing the 
+# multirepo docs site and the individual docs site
+edit_uri: ""
 
 plugins:
   - search
