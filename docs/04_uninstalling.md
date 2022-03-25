@@ -8,4 +8,4 @@ To uninstall passGen:
 
 **Example:** Uninstalling passGen
 
-![type:video](assets/screenshots/uninstall.mp4)
+![type:video](https://github.com/josh-wong/passGen/tree/main/docs/assets/screenshots/uninstall.mp4)
