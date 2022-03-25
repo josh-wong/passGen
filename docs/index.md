@@ -27,8 +27,6 @@ passGen is a lightweight Windows app for creating randomly generated, 8-characte
 <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 
 <!-- ## Auto width for passGen download button -->
-<form>
-<input class="btn" type="button" value="Download passGen v2.0.0" onclick="window.location.href='https://github.com/josh-wong/passGen/releases/download/v2.0.0/passGen_installer.msi'" />
-</form>
+[:material-download: Download passGen v2.0.0](https://github.com/josh-wong/passGen/releases/download/v2.0.0/passGen_installer.msi){ .md-button .md-button--primary }
 
 For details about changes to passGen, see the [release notes](https://github.com/josh-wong/passGen/releases).
