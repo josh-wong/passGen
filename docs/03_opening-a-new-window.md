@@ -4,4 +4,4 @@ If you need to generate multiple passwords simultaneously, go to **File** and cl
 
 **Example:** Opening a new window
 
-![type:video](https://github.com/josh-wong/passGen/tree/main/docs/assets/screenshots/open_new_window.mp4)
+![type:video](https://github.com/josh-wong/passGen/blob/main/docs/assets/screenshots/open_new_window.mp4)
