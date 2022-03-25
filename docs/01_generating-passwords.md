@@ -22,6 +22,6 @@ Click **Copy** to copy the password.
 
 **Example:** Generating a password without symbols
 
-![type:video](./assets/screenshots/password_without_symbols.mp4)
+![type:video](https://github.com/josh-wong/passGen/blob/main/docs/assets/screenshots/password_without_symbols.mp4)
 
 > **Note:** To see the password that you generated, click the asterisks masking the password.
