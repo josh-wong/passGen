@@ -12,6 +12,9 @@ plugins:
         width: "100%"
         height: "300px"
 
+markdown_extensions:
+  - attr_list
+
 theme:
   name: material
   favicon: assets/images/favicon.png
