@@ -10,7 +10,8 @@ Click **Copy** to copy the password.
 
 **Example:** Generating a password with symbols
 
-![type:video](https://github.com/josh-wong/passGen/blob/main/docs/assets/screenshots/password_with_symbols.mp4)
+<video src="https://github.com/josh-wong/passGen/blob/main/docs/assets/screenshots/password_with_symbols.mp4" controls="controls" style="width: 100%; height: 300px;">
+</video>
 
 > **Note:** To see the password that you generated, click the asterisks masking the password.
 
