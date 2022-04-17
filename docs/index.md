@@ -1,6 +1,6 @@
 # Overview
 
-passGen is a lightweight Windows app for creating randomly generated, 8-character passwords that contain:
+passGen is a lightweight Windows app for creating randomly generated, 10-character passwords that contain:
 	
 - Uppercase letters, lowercase letters, numbers
 - Uppercase letters, lowercase letters, numbers, and symbols
