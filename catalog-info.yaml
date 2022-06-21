@@ -6,6 +6,6 @@ metadata:
     github.com/project-slug: josh-wong/passGen
     backstage.io/techdocs-ref: dir:.
 spec:
-  type: other
+  type: sofftware
   lifecycle: production
   owner: josh-wong
