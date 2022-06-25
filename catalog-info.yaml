@@ -2,6 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: passGen
+  title: passGen
+  description: passGen is a Windows app for creating randomly generated, 10-character passwords.
+  tags: C#, Markdown
   annotations:
     github.com/project-slug: josh-wong/passGen
     backstage.io/techdocs-ref: dir:.
