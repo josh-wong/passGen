@@ -5,8 +5,8 @@ metadata:
   title: passGen
   description: passGen is a Windows app for creating randomly generated, 10-character passwords.
   tags:
-    - C#
-    - Markdown
+    - csharp
+    - markdown
   annotations:
     github.com/project-slug: josh-wong/passGen
     backstage.io/techdocs-ref: dir:.
