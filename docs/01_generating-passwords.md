@@ -12,7 +12,9 @@ Click **Copy** to copy the password.
 
 ![Example: Generating a password with symbols](https://github.com/josh-wong/passGen/blob/main/docs/assets/screenshots/password_with_symbols.gif?raw=true)
 
-> **Note:** To see the password that you generated, click the asterisks masking the password.
+> **Note**
+> 
+> To see the password that you generated, click the asterisks masking the password.
 
 ## Generate a password *without* symbols
 
@@ -24,4 +26,6 @@ Click **Copy** to copy the password.
 
 ![Example: Generating a password without symbols](https://github.com/josh-wong/passGen/blob/main/docs/assets/screenshots/password_without_symbols.gif?raw=true)
 
-> **Note:** To see the password that you generated, click the asterisks masking the password.
+> **Note**
+> 
+> To see the password that you generated, click the asterisks masking the password.
