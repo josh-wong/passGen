@@ -2,10 +2,9 @@
 
 To uninstall passGen:
 
-1. Open **Settings** in Windows.
-2. Navigate to **Add or remove programs**.
-3. Search for **passGen** in the program list.
-4. Click the **three vertical dots**, then select **Uninstall**.
+Open **Settings** in Windows, then navigate to **Add or remove programs**.
+
+Search for **passGen** in the program list, and click the **three vertical dots**, then select **Uninstall**.
 
 !!! example
     
