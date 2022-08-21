@@ -7,6 +7,8 @@ To uninstall passGen:
 3. Search for **passGen** in the program list.
 4. Click the **three vertical dots**, then select **Uninstall**.
 
-**Example:** Uninstalling passGen
-
-![Example: Uninstalling passGen](https://github.com/josh-wong/passGen/blob/main/docs/assets/screenshots/uninstall.gif?raw=true)
+!!! example
+    
+    Uninstalling passGen
+    
+    ![Example: Uninstalling passGen](https://github.com/josh-wong/passGen/blob/main/docs/assets/screenshots/uninstall.gif?raw=true)
