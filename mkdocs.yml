@@ -1,5 +1,6 @@
 site_name: passGen documentation
 site_url: https://josh-wong.github.io/passGen/
+site_description: A lightweight Windows app for creating randomly generated, 10-character passwords that contain:
 
 # Add repo details in the top right-hand corner
 repo_name: josh-wong/passGen
@@ -18,6 +19,25 @@ plugins:
   - git-committers:
       repository: josh-wong/passGen
       branch: main
+  - rss:
+      abstract_chars_count: 160  # -1 for full content
+      categories:
+        - tags
+      comments_path: "#__comments"
+      date_from_meta:
+        as_creation: "date"
+        as_update: false
+        datetime_format: "%Y-%m-%d"
+      enabled: true
+      feed_ttl: 1440
+      image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png
+      length: 20
+      pretty_print: false
+      match_path: ".*"
+      url_parameters:
+        utm_source: "documentation"
+        utm_medium: "RSS"
+        utm_campaign: "feed-syndication"
 
 markdown_extensions:
   # Add styles for buttons
@@ -100,6 +120,8 @@ nav:
   - Uninstalling the app: '04_uninstalling.md'
   - References: '05_references.md'
   - Contributions: '06_contributions.md'
+  - '': ''
+  - 🔶RSS: 'https://josh-wong.github.io/passGen/feed_rss_updated.xml'
   - '': ''
   - '': ''
   - 🏠Home: 'https://josh-wong.github.io'
