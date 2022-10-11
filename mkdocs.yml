@@ -10,15 +10,15 @@ edit_uri: blob/main/docs
 plugins:
   - search
   #- techdocs-core
+  - git-committers:
+      repository: josh-wong/passGen
+      branch: main
   - git-revision-date-localized:
       type: date
   - mkdocs-video:
       css_style:
         width: "100%"
         height: "300px"
-  - git-committers:
-      repository: josh-wong/passGen
-      branch: main
   - rss:
       abstract_chars_count: 160  # -1 for full content
       categories:
@@ -38,6 +38,8 @@ plugins:
         utm_source: "documentation"
         utm_medium: "RSS"
         utm_campaign: "feed-syndication"
+  # Enable support for social cards (pretty link previews)
+  - social
 
 markdown_extensions:
   # Add styles for buttons
