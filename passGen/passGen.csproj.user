@@ -3,8 +3,8 @@
   <PropertyGroup>
     <PublishUrlHistory>publish\</PublishUrlHistory>
     <InstallUrlHistory />
-    <SupportUrlHistory />
-    <UpdateUrlHistory />
+    <SupportUrlHistory>https://github.com/josh-wong/passGen/issues</SupportUrlHistory>
+    <UpdateUrlHistory>https://github.com/josh-wong/passGen/releases/download/v3.0.0/passGen_installer.msi/</UpdateUrlHistory>
     <BootstrapperUrlHistory />
     <ErrorReportUrlHistory />
     <FallbackCulture>en-US</FallbackCulture>
