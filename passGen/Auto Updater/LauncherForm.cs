@@ -26,9 +26,9 @@ namespace Launcher
         private string temp_msi = "tmp/Update.msi";
         private string name_of_program = "passGen_installer.msi";
         // path to Version.txt file on internet
-        private string github_version_file = "https://github.com/josh-wong/passGen/passGen/raw/master/version.txt";
+        private string github_version_file = "https://raw.githubusercontent.com/josh-wong/passGen/main/passGen/version.txt";
         // path to update file on internet
-        private string github_update_msi = "https://github.com/josh-wong/passGen/releases/download/v3.1.0/passGen_installer.msi";
+        private string github_update_msi = "https://github.com/josh-wong/passGen/releases/download/v3.0.0/passGen_installer.msi";
 
         public LauncherForm()
         {
