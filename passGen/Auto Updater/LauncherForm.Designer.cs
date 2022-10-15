@@ -45,7 +45,7 @@ namespace Launcher
             this.lbl.Location = new System.Drawing.Point(13, 11);
             this.lbl.Margin = new System.Windows.Forms.Padding(0);
             this.lbl.Name = "lbl";
-            this.lbl.Size = new System.Drawing.Size(356, 61);
+            this.lbl.Size = new System.Drawing.Size(545, 61);
             this.lbl.TabIndex = 2;
             this.lbl.Text = "A new version (v3.0.0) of passGen is available. Do you want to update?";
             // 
@@ -53,21 +53,21 @@ namespace Launcher
             // 
             this.txtBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtBox.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBox.Location = new System.Drawing.Point(16, 101);
+            this.txtBox.Location = new System.Drawing.Point(16, 79);
             this.txtBox.Margin = new System.Windows.Forms.Padding(4);
             this.txtBox.Multiline = true;
             this.txtBox.Name = "txtBox";
             this.txtBox.ReadOnly = true;
-            this.txtBox.Size = new System.Drawing.Size(346, 101);
+            this.txtBox.Size = new System.Drawing.Size(532, 147);
             this.txtBox.TabIndex = 3;
-            this.txtBox.Text = "• New features\r\n   • Added autoupdate function\r\n• Improvements\r\n   • Updated UI e" +
-    "lements\r\n";
+            this.txtBox.Text = "• New features\r\n   • Added autoupdate function\r\n• Improvements\r\n   • Updated menu" +
+    " icons\r\n   • Make pop-up windows slightly bigger and more descriptive";
             // 
             // lbl1
             // 
             this.lbl1.AutoSize = true;
             this.lbl1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl1.Location = new System.Drawing.Point(13, 74);
+            this.lbl1.Location = new System.Drawing.Point(13, 52);
             this.lbl1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl1.Name = "lbl1";
             this.lbl1.Size = new System.Drawing.Size(118, 23);
@@ -77,7 +77,7 @@ namespace Launcher
             // BtnYes
             // 
             this.BtnYes.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnYes.Location = new System.Drawing.Point(141, 215);
+            this.BtnYes.Location = new System.Drawing.Point(324, 220);
             this.BtnYes.Margin = new System.Windows.Forms.Padding(4);
             this.BtnYes.Name = "BtnYes";
             this.BtnYes.Size = new System.Drawing.Size(100, 30);
@@ -89,7 +89,7 @@ namespace Launcher
             // BtnNo
             // 
             this.BtnNo.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnNo.Location = new System.Drawing.Point(262, 215);
+            this.BtnNo.Location = new System.Drawing.Point(448, 220);
             this.BtnNo.Margin = new System.Windows.Forms.Padding(4);
             this.BtnNo.Name = "BtnNo";
             this.BtnNo.Size = new System.Drawing.Size(100, 30);
@@ -102,7 +102,7 @@ namespace Launcher
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(382, 258);
+            this.ClientSize = new System.Drawing.Size(571, 263);
             this.Controls.Add(this.BtnNo);
             this.Controls.Add(this.BtnYes);
             this.Controls.Add(this.lbl1);

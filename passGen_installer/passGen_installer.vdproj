@@ -288,8 +288,8 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:passGen"
-        "ProductCode" = "8:{862D0404-5545-46A3-89DD-119166A92D76}"
-        "PackageCode" = "8:{3FA39290-A9C4-4B5C-8124-FB83EA985428}"
+        "ProductCode" = "8:{C07F8E34-A1BB-4169-86A0-F599925CE6CE}"
+        "PackageCode" = "8:{9D9D7539-EE9E-4426-A263-D95D4885CABD}"
         "UpgradeCode" = "8:{6A510BB8-884D-456B-8588-EA73D24AC958}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
