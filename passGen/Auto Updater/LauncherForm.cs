@@ -23,12 +23,12 @@ namespace Launcher
         // reads Version.txt file next to excecutable
         private string current_version_no;
         // where update file will be downloaded
-        private string temp_zip = "tmp/Update.zip";
-        private string name_of_program = "TestDummy.exe";
+        private string temp_msi = "tmp/Update.msi";
+        private string name_of_program = "passGen_installer.msi";
         // path to Version.txt file on internet
-        private string github_version_file = "https://github.com/Stock84-dev/Auto-Updater/raw/master/Version.txt";
+        private string github_version_file = "https://github.com/josh-wong/passGen/passGen/raw/master/version.txt";
         // path to update file on internet
-        private string github_update_zip = "https://github.com/Stock84-dev/Auto-Updater/raw/master/Update.zip";
+        private string github_update_msi = "https://github.com/josh-wong/passGen/releases/download/v3.0.0/passGen_installer.msi";
 
         public LauncherForm()
         {
@@ -113,7 +113,7 @@ namespace Launcher
             return version_number;
         }
 
-        private void btnYes_Click(object sender, EventArgs e)
+        private void BtnYes_Click(object sender, EventArgs e)
         {
             UpdateApp();
         }
@@ -121,8 +121,8 @@ namespace Launcher
         private void UpdateApp()
         {
             // hiding all elements in form except main label
-            btnYes.Visible = false;
-            btnNo.Visible = false;
+            BtnYes.Visible = false;
+            BtnNo.Visible = false;
             txtBox.Visible = false;
             lbl1.Visible = false;
             lbl.AutoSize = false;
@@ -134,7 +134,7 @@ namespace Launcher
             Directory.CreateDirectory("tmp");
             try
             {
-                wc.DownloadFile(new Uri(github_update_zip), temp_zip);
+                wc.DownloadFile(new Uri(github_update_msi), temp_msi);
             }
             catch
             {
@@ -146,7 +146,7 @@ namespace Launcher
             lbl.Text = "Installing updates...";
             Application.DoEvents();
             SaveVersion();
-            ZipFile.ExtractToDirectory(temp_zip, AppDomain.CurrentDomain.BaseDirectory + "/tmp");
+            ZipFile.ExtractToDirectory(temp_msi, AppDomain.CurrentDomain.BaseDirectory + "/tmp");
 
             if (!File.Exists("tmp/Instructions.txt"))
             {
@@ -167,7 +167,7 @@ namespace Launcher
             StartApp();
         }
 
-        private void btnNo_Click(object sender, EventArgs e)
+        private void BtnNo_Click(object sender, EventArgs e)
         {
             StartApp();
         }
