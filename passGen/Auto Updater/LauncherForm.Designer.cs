@@ -47,7 +47,7 @@ namespace Launcher
             this.lbl.Name = "lbl";
             this.lbl.Size = new System.Drawing.Size(356, 61);
             this.lbl.TabIndex = 2;
-            this.lbl.Text = "A new version (v3.0.0) of passGen is available. Do you want to update?";
+            this.lbl.Text = "A new version (v3.1.0) of passGen is available. Do you want to update?";
             // 
             // txtBox
             // 
