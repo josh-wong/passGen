@@ -1,0 +1,11 @@
+C:\Users\joshu\OneDrive\Documents\GitHub\passGen\passGen\Auto Updater\bin\Release\Auto Updater.exe.config
+C:\Users\joshu\OneDrive\Documents\GitHub\passGen\passGen\Auto Updater\bin\Release\Auto Updater.exe
+C:\Users\joshu\OneDrive\Documents\GitHub\passGen\passGen\Auto Updater\bin\Release\Auto Updater.pdb
+C:\Users\joshu\OneDrive\Documents\GitHub\passGen\passGen\Auto Updater\obj\Release\Auto Updater.csproj.AssemblyReference.cache
+C:\Users\joshu\OneDrive\Documents\GitHub\passGen\passGen\Auto Updater\obj\Release\Auto Updater.csproj.SuggestedBindingRedirects.cache
+C:\Users\joshu\OneDrive\Documents\GitHub\passGen\passGen\Auto Updater\obj\Release\Launcher.LauncherForm.resources
+C:\Users\joshu\OneDrive\Documents\GitHub\passGen\passGen\Auto Updater\obj\Release\Auto_Updater.Properties.Resources.resources
+C:\Users\joshu\OneDrive\Documents\GitHub\passGen\passGen\Auto Updater\obj\Release\Auto Updater.csproj.GenerateResource.cache
+C:\Users\joshu\OneDrive\Documents\GitHub\passGen\passGen\Auto Updater\obj\Release\Auto Updater.csproj.CoreCompileInputs.cache
+C:\Users\joshu\OneDrive\Documents\GitHub\passGen\passGen\Auto Updater\obj\Release\Auto Updater.exe
+C:\Users\joshu\OneDrive\Documents\GitHub\passGen\passGen\Auto Updater\obj\Release\Auto Updater.pdb
