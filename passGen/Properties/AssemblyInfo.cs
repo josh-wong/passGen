@@ -9,9 +9,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("passGen")]
 [assembly: AssemblyDescription("Simple password generator")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("inoshishi")]
+[assembly: AssemblyCompany("josh-wong")]
 [assembly: AssemblyProduct("passGen")]
-[assembly: AssemblyCopyright("Copyright © inoshishi 2017")]
+[assembly: AssemblyCopyright("Copyright © josh-wong 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

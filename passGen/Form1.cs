@@ -47,7 +47,7 @@ namespace passGen
         }
         private void ReleaseNotes_ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Process.Start("https://github.com/josh-wong/passGen/releases/tag/v2.0.0");
+            Process.Start("https://github.com/josh-wong/passGen/releases");
         }
         private void ReportIssue_ToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -55,7 +55,7 @@ namespace passGen
         }
         private void About_ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Version: 2.0.0 | Updated: March 21, 2022" + Environment.NewLine + "MIT License." + Environment.NewLine + "" + Environment.NewLine + "Created by josh & inoshishi.", "About passGen", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Version: 3.0.0 | Updated: October 15, 2022" + Environment.NewLine + "MIT License." + Environment.NewLine + "" + Environment.NewLine + "Created by josh-wong.", "About passGen", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         // Main passGen window
@@ -80,7 +80,7 @@ namespace passGen
         private void Copy_Click(object sender, EventArgs e)
         {
             Clipboard.SetText(RandomNumber.Text);
-            MessageBox.Show("Password copied.", "passGen");
+            MessageBox.Show("Password copied to clipboard.", "passGen");
         }
 
         protected void Generate_pw_s_Click(object sender, EventArgs e)
@@ -104,7 +104,7 @@ namespace passGen
         private void Copy_s_Click(object sender, EventArgs e)
         {
             Clipboard.SetText(RandomNumber_s.Text);
-            MessageBox.Show("Password copied.", "passGen");
+            MessageBox.Show("Password copied to clipboard.", "passGen");
         }
 
         private void RandomNumber_MouseDown(object sender, MouseEventArgs e)
