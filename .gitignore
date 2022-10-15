@@ -1,5 +1,6 @@
 .cache/
 .vs/
 docs/assets/screenshots/src/
+passGen/Resources/original_icons/
 passGen/Thumbs.db
 site/
