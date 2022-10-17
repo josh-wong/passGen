@@ -288,15 +288,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:passGen"
-        "ProductCode" = "8:{C07F8E34-A1BB-4169-86A0-F599925CE6CE}"
-        "PackageCode" = "8:{9D9D7539-EE9E-4426-A263-D95D4885CABD}"
+        "ProductCode" = "8:{78CE79BB-BB08-465D-9913-57CA9838C17B}"
+        "PackageCode" = "8:{EB2972FD-5869-4661-AAC5-6065F2F02650}"
         "UpgradeCode" = "8:{6A510BB8-884D-456B-8588-EA73D24AC958}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:3.0.0"
+        "ProductVersion" = "8:2.9.0"
         "Manufacturer" = "8:josh-wong"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:https://github.com/josh-wong/passGen/issues"
@@ -824,7 +824,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_F1E10205F2134041A1C2F7FD40C5BA9F"
             {
-            "SourcePath" = "8:..\\passGen\\obj\\Release\\passGen.exe"
+            "SourcePath" = "8:..\\passGen\\obj\\Debug\\passGen.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_24B1220AC12746399FA7266D3E207806"
