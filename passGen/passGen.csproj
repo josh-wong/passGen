@@ -14,8 +14,8 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>true</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>https://raw.githubusercontent.com/josh-wong/passGen/main/publish/</InstallUrl>
-    <UpdateUrl>https://raw.githubusercontent.com/josh-wong/passGen/main/publish/</UpdateUrl>
+    <InstallUrl>https://raw.githubusercontent.com/josh-wong/passGen/main/passGen/publish/</InstallUrl>
+    <UpdateUrl>https://raw.githubusercontent.com/josh-wong/passGen/main/passGen/publish/</UpdateUrl>
     <SupportUrl>https://github.com/josh-wong/passGen/issues</SupportUrl>
     <TargetCulture>en</TargetCulture>
     <ProductName>passGen</ProductName>

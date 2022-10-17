@@ -2,7 +2,7 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <PublishUrlHistory>publish/|passGen/publish/|https://raw.githubusercontent.com/josh-wong/passGen/main/publish/|publish\</PublishUrlHistory>
-    <InstallUrlHistory>https://raw.githubusercontent.com/josh-wong/passGen/main/publish/</InstallUrlHistory>
+    <InstallUrlHistory>https://raw.githubusercontent.com/josh-wong/passGen/main/passGen/publish/|https://raw.githubusercontent.com/josh-wong/passGen/passGen/main/publish/|https://raw.githubusercontent.com/josh-wong/passGen/main/publish/</InstallUrlHistory>
     <SupportUrlHistory>https://github.com/josh-wong/passGen/issues</SupportUrlHistory>
     <UpdateUrlHistory>https://raw.githubusercontent.com/josh-wong/passGen/main/publish/|https://github.com/josh-wong/passGen/releases/download/v3.0.0/passGen_installer.msi/</UpdateUrlHistory>
     <BootstrapperUrlHistory />
