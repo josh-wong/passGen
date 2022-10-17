@@ -16,14 +16,14 @@
     <MapFileExtensions>true</MapFileExtensions>
     <InstallUrl>https://raw.githubusercontent.com/josh-wong/passGen/main/passGen/publish/</InstallUrl>
     <UpdateUrl>https://raw.githubusercontent.com/josh-wong/passGen/main/passGen/publish/</UpdateUrl>
-    <SupportUrl>https://github.com/josh-wong/passGen/issues</SupportUrl>
+    <SupportUrl>https://github.com/josh-wong/passGen/releases</SupportUrl>
     <TargetCulture>en</TargetCulture>
     <ProductName>passGen</ProductName>
     <PublisherName>josh-wong</PublisherName>
     <MinimumRequiredVersion>2.9.0.0</MinimumRequiredVersion>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>2.9.5.%2a</ApplicationVersion>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>3.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>

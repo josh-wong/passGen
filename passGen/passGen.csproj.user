@@ -3,7 +3,7 @@
   <PropertyGroup>
     <PublishUrlHistory>publish\|publish/|passGen/publish/|https://raw.githubusercontent.com/josh-wong/passGen/main/publish/</PublishUrlHistory>
     <InstallUrlHistory>https://raw.githubusercontent.com/josh-wong/passGen/main/passGen/publish/|https://raw.githubusercontent.com/josh-wong/passGen/passGen/main/publish/|https://raw.githubusercontent.com/josh-wong/passGen/main/publish/</InstallUrlHistory>
-    <SupportUrlHistory>https://github.com/josh-wong/passGen/issues</SupportUrlHistory>
+    <SupportUrlHistory>https://github.com/josh-wong/passGen/|https://github.com/josh-wong/passGen/issues</SupportUrlHistory>
     <UpdateUrlHistory>https://raw.githubusercontent.com/josh-wong/passGen/main/passGen/publish/|https://raw.githubusercontent.com/josh-wong/passGen/main/publish/|https://github.com/josh-wong/passGen/releases/download/v3.0.0/passGen_installer.msi/</UpdateUrlHistory>
     <BootstrapperUrlHistory />
     <ErrorReportUrlHistory />
