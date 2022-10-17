@@ -55,7 +55,7 @@ namespace passGen
         }
         private void About_ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Version: 2.9.1.5 | Updated: October 15, 2022" + Environment.NewLine + "MIT License." + Environment.NewLine + "" + Environment.NewLine + "Created by josh-wong.", "About passGen", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Version: 2.9.5.0 | Updated: October 15, 2022" + Environment.NewLine + "MIT License." + Environment.NewLine + "" + Environment.NewLine + "Created by josh-wong.", "About passGen", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         // Main passGen window
