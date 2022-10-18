@@ -104,12 +104,21 @@ theme:
   features:
     # Mark announcement as read
     - announce.dismiss
+    # Add support for improved tooltips
+    - content.tooltips
     # Add custom search functions
-    - search.suggest
     - search.highlight
     - search.share
-    - navigation.tracking
+    - search.suggest
+    # Add custom navigation functions
+    - navigation.expand
+    #- navigation.indexes
+    - navigation.instant
+    #- navigation.sections
+    #- navigation.tabs
+    #- navigation.tabs.sticky
     - navigation.top
+    - navigation.tracking
 
 extra:
   social:
