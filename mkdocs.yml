@@ -135,8 +135,6 @@ extra:
 nav:
   - Overview: 'index.md'
   - Generating a password: 'generating-passwords.md'
-  - Clearing a password: 'clearing-passwords.md'
-  - Opening a new window: 'opening-a-new-window.md'
   - Updating the app: 'updating-the-app.md'
   - Uninstalling the app: 'uninstalling.md'
   - References: 'references.md'
