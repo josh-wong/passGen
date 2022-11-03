@@ -21,3 +21,7 @@ Select **Copy** to copy the password.
 !!! note
     
     To see the password that you generated, select the asterisks masking the password.
+
+## Open multiple password windows
+
+If you need to generate multiple passwords and keep each window open, go to **File** and select **Open new window** to open a new window.
