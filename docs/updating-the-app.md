@@ -8,6 +8,4 @@ To update, select **OK**. Or if you want to skip the update, select **Skip**.
 
 !!! warning
     
-    Skipping an update
-    
     If you skip an update, you will not be prompted again until the next update. If you skipped an update and later decide to install it, you can download the newer version from [Releases](https://github.com/josh-wong/passGen/releases).
