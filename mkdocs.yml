@@ -8,48 +8,39 @@ repo_url: https://github.com/josh-wong/passGen/
 edit_uri: blob/main/docs
 
 plugins:
-  - search
-  #- techdocs-core
-  - git-committers:
-      repository: josh-wong/passGen
-      branch: main
-  - git-revision-date-localized:
-      type: date
+  # Enable the search function (currently disabled to take advantage of new search features in Material for MkDocs Insiders)
+  #- search
+  - minify:
+      minify_html: true
   - mkdocs-video:
       css_style:
         width: "100%"
         height: "300px"
-  - rss:
-      abstract_chars_count: 160  # -1 for full content
-      categories:
-        - tags
-      comments_path: "#__comments"
-      date_from_meta:
-        as_creation: "date"
-        as_update: false
-        datetime_format: "%Y-%m-%d"
-      enabled: true
-      feed_ttl: 1440
-      image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png
-      length: 20
-      pretty_print: false
-      match_path: ".*"
-      url_parameters:
-        utm_source: "documentation"
-        utm_medium: "RSS"
-        utm_campaign: "feed-syndication"
+  # Enables TechDocs support in Backstage. However, many plugins need to be disabled for TechDocs to work properly.
+  #- techdocs-core
 
 markdown_extensions:
-  # Add styles for buttons
-  - attr_list
-  # Add emoji support
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+  # Add support for abbreviations
+  - abbr
   # Add support for Material for MkDocs admonitions
   - admonition
+  # Add styles for buttons
+  - attr_list
+  # Add support for grid cards
+  - md_in_html
+  # Make admonitions collapsible
   - pymdownx.details
-  - pymdownx.superfences
+  # Add emoji support
+  # Add tooltip support
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  # Add support for arbitrary nesting of code and content blocks inside each other.
+  - pymdownx.superfences:
+      custom_fences:
+          - name: mermaid
+            class: mermaid
+            format: !!python/name:pymdownx.superfences.fence_code_format
   - toc:
       # Add link next to header that allows the user to get a permalink to the heading (still need to copy the URL in the address bar).
       permalink: true
@@ -112,6 +103,7 @@ theme:
     - search.suggest
     # Add custom navigation functions
     - navigation.expand
+    - navigation.footer
     #- navigation.indexes
     - navigation.instant
     #- navigation.sections
@@ -137,22 +129,42 @@ extra:
           data: 0
           note: >- 
             Thanks for your feedback! Help me improve this page by <a href="https://github.com/josh-wong/passGen/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">creating an issue in GitHub</a>.
+  consent:
+    title: Cookie consent
+    description: >- 
+      This site uses cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of the documentation and whether users find what they're searching for. With your consent, you're helping to improve this documentation and provide a better user experience.
+    actions:
+      - accept
+      - manage
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/josh-wong
       name: josh-wong on GitHub
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/josh-wong
+      name: josh-wong on GitLab
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/wongjoshua
       name: Joshua Wong on LinkedIn
+    - icon: fontawesome/brands/mastodon
+      link: https://famichiki.jp/@josh
+      name: josh on Mastodon
+    - icon: fontawesome/brands/steam
+      link: https://steamcommunity.com/id/hex080f53
+      name: hex080f53 on Steam
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/josh_in_japan
-      name: josh_in_japan on Twitter
+      link: https://twitter.com/080f53
+      name: 080f53 on Twitter
   status:
     new: Recently added
     deprecated: Deprecated
 
 extra_css:
   - stylesheets/extra.css
+
+copyright: >
+  &copy; 2021-2023 Josh Wong –
+  <a href="#__consent">🍪Cookie settings</a>
 
 nav:
   - Overview: 'index.md'
