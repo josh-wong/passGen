@@ -46,7 +46,7 @@
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>B6EB409138E1FEEF45FAFB5436257BF2B37377A2</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>292309EE5FEC1AC34D772166BDEC821E30984003</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestKeyFile>passGen_TemporaryKey.pfx</ManifestKeyFile>
