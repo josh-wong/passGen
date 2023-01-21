@@ -31,6 +31,9 @@ markdown_extensions:
   # Make admonitions collapsible
   - pymdownx.details
   # Add emoji support
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   # Add tooltip support
   - pymdownx.snippets:
       auto_append:
