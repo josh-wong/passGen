@@ -6,6 +6,6 @@ passGen is a lightweight Windows app for creating randomly generated, 14-charact
 - Uppercase letters, lowercase letters, numbers, and symbols
 
 <!-- ## Auto width for passGen download button -->
-[:material-download: Download passGen v3.1.0](https://github.com/josh-wong/passGen/releases/download/v3.1.0/passGen_installer.exe){ .md-button .md-button--primary }
+[:fontawesome-solid-download: Download passGen v3.1.0](https://github.com/josh-wong/passGen/releases/download/v3.1.0/passGen_installer.exe){ .md-button .md-button--primary }
 
 For details about changes to the passGen app, see the [release notes](https://github.com/josh-wong/passGen/releases).
