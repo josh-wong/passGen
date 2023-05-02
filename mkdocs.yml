@@ -1,5 +1,5 @@
 site_name: passGen documentation
-site_url: https://josh-wong.github.io/passgen
+site_url: https://josh-wong.github.io/passGen
 site_description: A lightweight Windows app for creating randomly generated, 14-character passwords.
 
 # Add repo details in the top right-hand corner
