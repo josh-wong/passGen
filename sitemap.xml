@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://josh-wong.github.io/passGen/</loc>
-         <lastmod>2023-01-30</lastmod>
+         <loc>https://docs.080f53.com/pg/</loc>
+         <lastmod>2023-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josh-wong.github.io/passGen/contributions/</loc>
-         <lastmod>2023-01-30</lastmod>
+         <loc>https://docs.080f53.com/pg/contributions/</loc>
+         <lastmod>2023-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josh-wong.github.io/passGen/generating-passwords/</loc>
-         <lastmod>2023-01-30</lastmod>
+         <loc>https://docs.080f53.com/pg/generating-passwords/</loc>
+         <lastmod>2023-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josh-wong.github.io/passGen/references/</loc>
-         <lastmod>2023-01-30</lastmod>
+         <loc>https://docs.080f53.com/pg/references/</loc>
+         <lastmod>2023-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josh-wong.github.io/passGen/uninstalling/</loc>
-         <lastmod>2023-01-30</lastmod>
+         <loc>https://docs.080f53.com/pg/uninstalling/</loc>
+         <lastmod>2023-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://josh-wong.github.io/passGen/updating-the-app/</loc>
-         <lastmod>2023-01-30</lastmod>
+         <loc>https://docs.080f53.com/pg/updating-the-app/</loc>
+         <lastmod>2023-05-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
