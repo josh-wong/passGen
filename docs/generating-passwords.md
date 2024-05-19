@@ -8,9 +8,11 @@ To create a 14-character password containing **symbols**, **numbers**, **upperca
 
 Select **Copy** to copy the password.
 
-!!! note
+:::note
     
-    To see the password that you generated, select the asterisks masking the password.
+To see the password that you generated, select the asterisks masking the password.
+
+:::
 
 ## Generate a password *without* symbols
 
@@ -18,9 +20,11 @@ To create a 14-character password containing **numbers**, **uppercase letters**,
 
 Select **Copy** to copy the password.
 
-!!! note
+:::note
     
-    To see the password that you generated, select the asterisks masking the password.
+To see the password that you generated, select the asterisks masking the password.
+
+:::
 
 ## Open multiple password windows
 
