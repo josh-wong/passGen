@@ -22,8 +22,9 @@
     <MinimumRequiredVersion>2.9.0.0</MinimumRequiredVersion>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>3.2.0.0</ApplicationVersion>
+    <ApplicationVersion>3.2.1.0</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -46,7 +47,7 @@
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>292309EE5FEC1AC34D772166BDEC821E30984003</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>6864ACC307D7BDD7EA8BC86F35C7C8D32DE8BBF7</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestKeyFile>passGen_TemporaryKey.pfx</ManifestKeyFile>
@@ -153,34 +154,33 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\pg_icon_blue.png" />
     <None Include="Resources\pg_icon_blue.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pg_icon_white.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\app-window-add.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bin-1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\close.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\notes-diary.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\notes-checklist-flip.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\conversation-question-warning.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\information-circle.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="pg_icon_blue.ico" />
+    <Content Include="Resources\pg_icon_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\app-window-add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\bin-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\notes-diary.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\notes-checklist-flip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\conversation-question-warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\information-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="Resources\pg_icon_blue - 32x32.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

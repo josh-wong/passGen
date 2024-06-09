@@ -43,7 +43,7 @@ namespace passGen
         // menuStrip items - Help
         private void Documentation_ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Process.Start("https://josh-wong.github.io/passGen");
+            Process.Start("https://www.080f53.com/portfolio/personal/passgen/overview/");
         }
         private void ReleaseNotes_ToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -55,7 +55,7 @@ namespace passGen
         }
         private void About_ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Version: 3.2.0.0 | Updated: January 8, 2023" + Environment.NewLine + "MIT License." + Environment.NewLine + "" + Environment.NewLine + "Created by josh-wong.", "About passGen", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Version: 3.2.1 | Updated: June 15, 2024" + Environment.NewLine + "MIT License." + Environment.NewLine + "" + Environment.NewLine + "Created by josh-wong.", "About passGen", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         // Main passGen window
