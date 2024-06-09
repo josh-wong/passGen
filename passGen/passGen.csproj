@@ -154,31 +154,31 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\pg_icon_blue.ico" />
+    <Content Include="Resources\pg_icon_blue.ico" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\pg_icon_white.png" />
+    <Content Include="Resources\pg_icon_white.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\app-window-add.png" />
+    <Content Include="Resources\app-window-add.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\bin-1.png" />
+    <Content Include="Resources\bin-1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\close.png" />
+    <Content Include="Resources\close.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\notes-diary.png" />
+    <Content Include="Resources\notes-diary.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\notes-checklist-flip.png" />
+    <Content Include="Resources\notes-checklist-flip.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\conversation-question-warning.png" />
+    <Content Include="Resources\conversation-question-warning.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\information-circle.png" />
+    <Content Include="Resources\information-circle.png" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="pg_icon_blue.ico" />
