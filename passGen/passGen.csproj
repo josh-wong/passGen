@@ -154,9 +154,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\pg_icon_blue.ico" />
-  </ItemGroup>
-  <ItemGroup>
+    <None Include="Resources\pg_icon_blue.png" />
+    <None Include="Resources\pg_icon_blue.ico" />
+    <Content Include="pg_icon_blue.ico" />
     <Content Include="Resources\pg_icon_white.png" />
   </ItemGroup>
   <ItemGroup>
@@ -181,7 +181,6 @@
     <Content Include="Resources\information-circle.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="pg_icon_blue.ico" />
     <Content Include="Resources\pg_icon_blue - 32x32.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
