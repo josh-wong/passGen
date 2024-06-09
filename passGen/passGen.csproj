@@ -45,10 +45,10 @@
   <PropertyGroup />
   <PropertyGroup />
   <PropertyGroup>
-    <ManifestCertificateThumbprint>6864ACC307D7BDD7EA8BC86F35C7C8D32DE8BBF7</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>B2B0731E41F6D5FFC60A56D26366AB9480AF20F9</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>passGen_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>passGen_1_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup />
