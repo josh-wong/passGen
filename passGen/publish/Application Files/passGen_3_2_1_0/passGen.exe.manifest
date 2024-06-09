@@ -55,14 +55,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="passGen.exe" size="180680">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="passGen.exe" size="132552">
       <assemblyIdentity name="passGen" version="3.2.1.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>5F4yc+U42BP9Jw23rnkYT/yi2nH9RIUJVGI/r+CnpXE=</dsig:DigestValue>
+        <dsig:DigestValue>Ir6UKt4OySKmxiPF9NayeINIaj2sBRqGH8KSDshcm54=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -75,13 +75,13 @@
       <dsig:DigestValue>FihlZtVNgcNyH37Pf0Jtll3jZOm+L55ijXNjtoS2/mo=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="pg_icon_blue.ico" size="67646">
+  <file name="pg_icon_blue.ico" size="43366">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>u8VusVwvHiiU/xXWJMipdkWtln30zdz+Vlp+JgWXxDc=</dsig:DigestValue>
+      <dsig:DigestValue>FjFbubDCjMqD4jyeBmqXm9tS4AH+BvK2pFNn2EiYcUc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Resources\app-window-add.png" size="2181">
@@ -147,15 +147,6 @@
       <dsig:DigestValue>2FB3Pd0UaeWZ29vjNILRE2aNGA5/QmmVL91YsBwUcRM=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Resources\pg_icon_blue - 32x32.ico" size="4286">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>oAEZm3j97kRg5vbhaJdghvP9DImgIE4Km8nLAkfPJtQ=</dsig:DigestValue>
-    </hash>
-  </file>
   <file name="Resources\pg_icon_white.png" size="8316">
     <hash>
       <dsig:Transforms>
@@ -187,4 +178,4 @@
       <dpiAware>true</dpiAware>
     </asmv3:windowsSettings>
   </asmv3:application>
-<publisherIdentity name="CN=ASUS-S500MD\joshu" issuerKeyHash="d5c25e7062abaa21e44ef56636f806fdaa830c0a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>dczUxSnM2DHdZgaN7qcTmKj/gX0sSH9/omzzDfodVqU=</DigestValue></Reference></SignedInfo><SignatureValue>JzYfwblQ6HVQ8MfBao++4n0fJHcpIkSc2QqCwVZpLs9Q/ZQ68SYzTj+bEgi6pzwt9Ibqie2hqKf0ZRt2YY84XmuDD74uoRDAdWN7Uc82Sdbl7Iqx508w2u2v9xl50ICb/RjzBpBV/jhAnEAczl2hMp9ah6kvJk53H/joAgFkKIM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4XRHDwdKAcjNesAMM4mXYy9QpptrJSMYzDH44TOTcz30KkVbRsPs2SR9E3iT6my1rCvQ32WE9pkBVZuHTg7+BYhmO3tzJMGaV1XeMlF16HDE+GkZliihl5TuZ6MBzUyNpup/qPNGF0eOEwjbxYVPxZ+u2VxywpSr3kmNdlettyU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a5561dfa0df36ca27f7f482c7d81ffa89813a7ee8d0666dd31d8cc29c5d4cc75" Description="" Url=""><as:assemblyIdentity name="passGen.exe" version="3.2.1.0" publicKeyToken="ee4a4db14d5007f5" language="en" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ASUS-S500MD\joshu</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>YiJ/gnhJ90yokGB/9d7WbJuE0Kr6yOniUsjVSvfqjH8=</DigestValue></Reference></SignedInfo><SignatureValue>1I3ya7q01js5NBeEFpr0kUPPAmgBARM/DC3tu902v8TiFFFQRw3Y67PJRtEx0hr7R/2s1ZQ8/UbCCeIkzmfH96W+YX20tj9C6x76ZiqI0I4+AzkhRYZKs49FTgwMbJkWtS/+JIgE2+hRtpVZObB4ISLknoX9NvFciwASBIBCv9c=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4XRHDwdKAcjNesAMM4mXYy9QpptrJSMYzDH44TOTcz30KkVbRsPs2SR9E3iT6my1rCvQ32WE9pkBVZuHTg7+BYhmO3tzJMGaV1XeMlF16HDE+GkZliihl5TuZ6MBzUyNpup/qPNGF0eOEwjbxYVPxZ+u2VxywpSr3kmNdlettyU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQbffeuaBtOYFK5WInEa//DDANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIAQQBTAFUAUwAtAFMANQAwADAATQBEAFwAagBvAHMAaAB1MB4XDTI0MDYwOTA1MTkxN1oXDTI1MDYwOTExMTkxN1owLTErMCkGA1UEAx4iAEEAUwBVAFMALQBTADUAMAAwAE0ARABcAGoAbwBzAGgAdTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA4XRHDwdKAcjNesAMM4mXYy9QpptrJSMYzDH44TOTcz30KkVbRsPs2SR9E3iT6my1rCvQ32WE9pkBVZuHTg7+BYhmO3tzJMGaV1XeMlF16HDE+GkZliihl5TuZ6MBzUyNpup/qPNGF0eOEwjbxYVPxZ+u2VxywpSr3kmNdlettyUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQC6bupSz/cmjOENv34FWBGXxWdOjkscSVfqxr9r0z3FyOl7poOI/1/2TvWDXEpEP3yQZjWy1qrmrMfhsIC+IKC0WwltHJQugHjkZ5yXXT5x0E8zu2AYv7h8kZDJTPRvXuVt5CXyY8+36/Fx133SRa90U7l6Sr1F1F4q69hcjV7vNw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+<publisherIdentity name="CN=ASUS-S500MD\joshu" issuerKeyHash="d5c25e7062abaa21e44ef56636f806fdaa830c0a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>bmdYPFngbzIH7GWLW/BK6I8DZF3t9qw4crFqg16JM/g=</DigestValue></Reference></SignedInfo><SignatureValue>1wrbEmTC+NOx3AbGTbTRZBF9nzT+9vdQvwAPQ9iQ0ZhNGkIVtjlFqKVi5SeOrg3rlvOniaPOu1QyFlWg/GiDEWsqV2dWATHFOr3onUSH+Ez3C4UOrw1bTrXKJbWTesk0zYFDTweUwYyGfoDEPYM1Q03f/zcVUTnV59hgHUi05Bk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4XRHDwdKAcjNesAMM4mXYy9QpptrJSMYzDH44TOTcz30KkVbRsPs2SR9E3iT6my1rCvQ32WE9pkBVZuHTg7+BYhmO3tzJMGaV1XeMlF16HDE+GkZliihl5TuZ6MBzUyNpup/qPNGF0eOEwjbxYVPxZ+u2VxywpSr3kmNdlettyU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f833895e836ab17238acf6ed5d64038fe84af05b8b65ec07326fe0593c58676e" Description="" Url=""><as:assemblyIdentity name="passGen.exe" version="3.2.1.0" publicKeyToken="ee4a4db14d5007f5" language="en" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ASUS-S500MD\joshu</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>POl8G9FqJZsVjCH2lmkzNYycvO3Z7zM7qLSWE8CJAO4=</DigestValue></Reference></SignedInfo><SignatureValue>naCCglg1s+Dxi0sNUJaMB3kxTMunBfe8XiI5Zcohk+1b3YJqUVC3zYlVbiehCakAmV4Fm81SnKrGUmW2LtG4cx4i1ivkx3PPite8P8lhK8NqmBA6B1+gbfY1XBTcp+l1ZYXHq6WdTF9vgudYflO7ObK0Riz2y86MF2x5ybsN6H0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4XRHDwdKAcjNesAMM4mXYy9QpptrJSMYzDH44TOTcz30KkVbRsPs2SR9E3iT6my1rCvQ32WE9pkBVZuHTg7+BYhmO3tzJMGaV1XeMlF16HDE+GkZliihl5TuZ6MBzUyNpup/qPNGF0eOEwjbxYVPxZ+u2VxywpSr3kmNdlettyU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQbffeuaBtOYFK5WInEa//DDANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIAQQBTAFUAUwAtAFMANQAwADAATQBEAFwAagBvAHMAaAB1MB4XDTI0MDYwOTA1MTkxN1oXDTI1MDYwOTExMTkxN1owLTErMCkGA1UEAx4iAEEAUwBVAFMALQBTADUAMAAwAE0ARABcAGoAbwBzAGgAdTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA4XRHDwdKAcjNesAMM4mXYy9QpptrJSMYzDH44TOTcz30KkVbRsPs2SR9E3iT6my1rCvQ32WE9pkBVZuHTg7+BYhmO3tzJMGaV1XeMlF16HDE+GkZliihl5TuZ6MBzUyNpup/qPNGF0eOEwjbxYVPxZ+u2VxywpSr3kmNdlettyUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQC6bupSz/cmjOENv34FWBGXxWdOjkscSVfqxr9r0z3FyOl7poOI/1/2TvWDXEpEP3yQZjWy1qrmrMfhsIC+IKC0WwltHJQugHjkZ5yXXT5x0E8zu2AYv7h8kZDJTPRvXuVt5CXyY8+36/Fx133SRa90U7l6Sr1F1F4q69hcjV7vNw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
