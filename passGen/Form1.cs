@@ -43,7 +43,7 @@ namespace passGen
         // menuStrip items - Help
         private void Documentation_ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Process.Start("https://www.080f53.com/portfolio/personal/passgen/overview/");
+            Process.Start("https://www.080f53.com/passgen");
         }
         private void ReleaseNotes_ToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -55,13 +55,13 @@ namespace passGen
         }
         private void About_ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Version: 3.3.0 | Updated: June 9, 2024" + Environment.NewLine + "MIT License." + Environment.NewLine + "" + Environment.NewLine + "Created by josh-wong.", "About passGen", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Version: 3.4.0 | Updated: August 24, 2024" + Environment.NewLine + "MIT License." + Environment.NewLine + "" + Environment.NewLine + "Created by josh-wong.", "About passGen", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         // Main passGen window
         protected void Generate_pw_Click(object sender, EventArgs e)
         {
-            int lengthOfPassword = 14;
+            int lengthOfPassword = 16;
 
             // Generate a password with uppercase letters, lowercase letters, and numbers
             string valid = "abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNOPQRSTUVWXYZ12345678901234567890";
@@ -85,7 +85,7 @@ namespace passGen
 
         protected void Generate_pw_s_Click(object sender, EventArgs e)
         {
-            int lengthOfPassword = 14;
+            int lengthOfPassword = 16;
 
             // Generate a password with symbols, uppercase letters, lowercase letters, and numbers; symbols duplicated to increase likelihood of symbols being included
             string valid = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ12345678901234567890!@^&-()!@^&-()!@^&-()";
@@ -128,6 +128,11 @@ namespace passGen
         }
         
         private void MenuStrip_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

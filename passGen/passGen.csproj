@@ -22,7 +22,7 @@
     <MinimumRequiredVersion>2.9.0.0</MinimumRequiredVersion>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>3.3.0.0</ApplicationVersion>
+    <ApplicationVersion>3.4.0.0</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -45,7 +45,7 @@
   <PropertyGroup />
   <PropertyGroup />
   <PropertyGroup>
-    <ManifestCertificateThumbprint>CA423F6175610240598909917300C2A2812ED38C</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>6140CF74393FF7FA49975B090139850EBCDF7261</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestKeyFile>passGen_TemporaryKey.pfx</ManifestKeyFile>

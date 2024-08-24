@@ -272,7 +272,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(406, 22);
             this.label1.TabIndex = 15;
-            this.label1.Text = "Create a randomly generated, 14-character password.";
+            this.label1.Text = "Create a randomly generated, 16-character password.";
             // 
             // Form1
             // 
