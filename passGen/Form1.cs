@@ -61,7 +61,7 @@ namespace passGen
         // Main passGen window
         protected void Generate_pw_Click(object sender, EventArgs e)
         {
-            int lengthOfPassword = 14;
+            int lengthOfPassword = 16;
 
             // Generate a password with uppercase letters, lowercase letters, and numbers
             string valid = "abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNOPQRSTUVWXYZ12345678901234567890";
@@ -85,7 +85,7 @@ namespace passGen
 
         protected void Generate_pw_s_Click(object sender, EventArgs e)
         {
-            int lengthOfPassword = 14;
+            int lengthOfPassword = 16;
 
             // Generate a password with symbols, uppercase letters, lowercase letters, and numbers; symbols duplicated to increase likelihood of symbols being included
             string valid = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ12345678901234567890!@^&-()!@^&-()!@^&-()";
@@ -128,6 +128,11 @@ namespace passGen
         }
         
         private void MenuStrip_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
