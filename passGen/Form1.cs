@@ -43,7 +43,7 @@ namespace passGen
         // menuStrip items - Help
         private void Documentation_ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Process.Start("https://www.080f53.com/portfolio/personal/passgen/overview/");
+            Process.Start("https://www.080f53.com/passgen");
         }
         private void ReleaseNotes_ToolStripMenuItem_Click(object sender, EventArgs e)
         {
