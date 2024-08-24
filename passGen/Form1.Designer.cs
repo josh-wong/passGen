@@ -167,7 +167,7 @@
             this.Help_ToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
-            this.menuStrip.Size = new System.Drawing.Size(558, 44);
+            this.menuStrip.Size = new System.Drawing.Size(651, 51);
             this.menuStrip.TabIndex = 12;
             this.menuStrip.Text = "menuStrip";
             this.menuStrip.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.MenuStrip_ItemClicked);
@@ -180,7 +180,7 @@
             this.Exit_ToolStripMenuItem});
             this.File_ToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Variable Display", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.File_ToolStripMenuItem.Name = "File_ToolStripMenuItem";
-            this.File_ToolStripMenuItem.Size = new System.Drawing.Size(68, 40);
+            this.File_ToolStripMenuItem.Size = new System.Drawing.Size(68, 47);
             this.File_ToolStripMenuItem.Text = "File";
             // 
             // OpenNewWindow_ToolStripMenuItem
@@ -222,7 +222,7 @@
             this.About_ToolStripMenuItem});
             this.Help_ToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Variable Display", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Help_ToolStripMenuItem.Name = "Help_ToolStripMenuItem";
-            this.Help_ToolStripMenuItem.Size = new System.Drawing.Size(82, 40);
+            this.Help_ToolStripMenuItem.Size = new System.Drawing.Size(82, 47);
             this.Help_ToolStripMenuItem.Text = "Help";
             // 
             // Documentation_ToolStripMenuItem
@@ -269,11 +269,12 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Variable Display", 10F);
-            this.label1.Location = new System.Drawing.Point(40, 60);
+            this.label1.Location = new System.Drawing.Point(34, 60);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(583, 32);
+            this.label1.Size = new System.Drawing.Size(356, 32);
             this.label1.TabIndex = 15;
-            this.label1.Text = "Create a randomly generated, 16-character password.";
+            this.label1.Text = "Create a 16-character password.";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // Form1
             // 
@@ -299,6 +300,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
+            this.Padding = new System.Windows.Forms.Padding(0, 0, 0, 35);
             this.Text = "passGen";
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
