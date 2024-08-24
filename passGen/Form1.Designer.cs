@@ -58,10 +58,10 @@
             this.Generate_pw.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Generate_pw.Font = new System.Drawing.Font("Segoe UI Variable Display", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Generate_pw.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Generate_pw.Location = new System.Drawing.Point(311, 123);
+            this.Generate_pw.Location = new System.Drawing.Point(337, 123);
             this.Generate_pw.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Generate_pw.Name = "Generate_pw";
-            this.Generate_pw.Size = new System.Drawing.Size(207, 84);
+            this.Generate_pw.Size = new System.Drawing.Size(252, 84);
             this.Generate_pw.TabIndex = 0;
             this.Generate_pw.Text = "Create a password without symbols";
             this.Generate_pw.UseVisualStyleBackColor = false;
@@ -76,10 +76,10 @@
             this.Copy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Copy.Font = new System.Drawing.Font("Segoe UI Variable Display", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Copy.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Copy.Location = new System.Drawing.Point(311, 298);
+            this.Copy.Location = new System.Drawing.Point(337, 298);
             this.Copy.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Copy.Name = "Copy";
-            this.Copy.Size = new System.Drawing.Size(207, 45);
+            this.Copy.Size = new System.Drawing.Size(252, 45);
             this.Copy.TabIndex = 5;
             this.Copy.Text = "Copy";
             this.Copy.UseVisualStyleBackColor = false;
@@ -98,7 +98,7 @@
             this.Generate_pw_s.Location = new System.Drawing.Point(40, 123);
             this.Generate_pw_s.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Generate_pw_s.Name = "Generate_pw_s";
-            this.Generate_pw_s.Size = new System.Drawing.Size(207, 84);
+            this.Generate_pw_s.Size = new System.Drawing.Size(252, 84);
             this.Generate_pw_s.TabIndex = 6;
             this.Generate_pw_s.Text = "Create a password \r\nwith symbols";
             this.Generate_pw_s.UseVisualStyleBackColor = false;
@@ -116,7 +116,7 @@
             this.Copy_s.Location = new System.Drawing.Point(40, 298);
             this.Copy_s.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Copy_s.Name = "Copy_s";
-            this.Copy_s.Size = new System.Drawing.Size(207, 45);
+            this.Copy_s.Size = new System.Drawing.Size(252, 45);
             this.Copy_s.TabIndex = 8;
             this.Copy_s.Text = "Copy";
             this.Copy_s.UseVisualStyleBackColor = false;
@@ -128,12 +128,12 @@
             this.RandomNumber.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.RandomNumber.Cursor = System.Windows.Forms.Cursors.Hand;
             this.RandomNumber.Font = new System.Drawing.Font("Segoe UI Variable Display", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RandomNumber.Location = new System.Drawing.Point(311, 234);
+            this.RandomNumber.Location = new System.Drawing.Point(337, 234);
             this.RandomNumber.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.RandomNumber.Name = "RandomNumber";
             this.RandomNumber.PasswordChar = '*';
             this.RandomNumber.ReadOnly = true;
-            this.RandomNumber.Size = new System.Drawing.Size(207, 45);
+            this.RandomNumber.Size = new System.Drawing.Size(252, 45);
             this.RandomNumber.TabIndex = 9;
             this.RandomNumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.RandomNumber.Visible = false;
@@ -150,7 +150,7 @@
             this.RandomNumber_s.Name = "RandomNumber_s";
             this.RandomNumber_s.PasswordChar = '*';
             this.RandomNumber_s.ReadOnly = true;
-            this.RandomNumber_s.Size = new System.Drawing.Size(207, 45);
+            this.RandomNumber_s.Size = new System.Drawing.Size(252, 45);
             this.RandomNumber_s.TabIndex = 10;
             this.RandomNumber_s.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.RandomNumber_s.Visible = false;
@@ -167,7 +167,7 @@
             this.Help_ToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
-            this.menuStrip.Size = new System.Drawing.Size(651, 51);
+            this.menuStrip.Size = new System.Drawing.Size(737, 51);
             this.menuStrip.TabIndex = 12;
             this.menuStrip.Text = "menuStrip";
             this.menuStrip.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.MenuStrip_ItemClicked);
@@ -282,7 +282,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(558, 384);
+            this.ClientSize = new System.Drawing.Size(632, 395);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Copy_s);
             this.Controls.Add(this.Generate_pw_s);
@@ -299,7 +299,6 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
-            this.Padding = new System.Windows.Forms.Padding(0, 0, 0, 35);
             this.Text = "passGen";
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
