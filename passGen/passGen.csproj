@@ -45,7 +45,7 @@
   <PropertyGroup />
   <PropertyGroup />
   <PropertyGroup>
-    <ManifestCertificateThumbprint>CA423F6175610240598909917300C2A2812ED38C</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>6140CF74393FF7FA49975B090139850EBCDF7261</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestKeyFile>passGen_TemporaryKey.pfx</ManifestKeyFile>
