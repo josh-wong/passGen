@@ -10,7 +10,7 @@
 
 > Replace this text with an outline the specific changes made in this pull request in the form of a bulleted list. Include relevant details, such as added features, bug fixes, code refactoring, or improvements.
 
-## Checklist
+<h2 id="checklist">Checklist</h2>
 
 The following is a best-effort checklist. If any items in this checklist aren't applicable to this PR, add `N/A` after each item.
 
@@ -19,11 +19,10 @@ The following is a best-effort checklist. If any items in this checklist aren't 
 - [ ] I have updated the side navigation as necessary.
 - [ ] I have updated the documentation to reflect the changes.
 - [ ] I have documented or updated any remaining open issues linked to this PR in GitHub, Obsidian, etc.
-- [ ] I have checked that my changes look as expected on a locally built version of the docs site.
 
 ### Build, deploy, and test
 
 - [ ] I have merged and published any dependent changes in other PRs.
 - [ ] I have commented my code, particularly in hard-to-understand areas.
-- [ ] I have confirmed that the application builds and deploys as expected.
+- [ ] I have checked that my changes look as expected on a locally built version of the docs site.
 - [ ] My changes generate no new warnings.
