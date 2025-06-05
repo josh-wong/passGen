@@ -1,0 +1,19 @@
+# This workflow is triggered when a pull request is merged.
+name: Auto-PR (for backporting)
+
+on:
+  pull_request:
+    branches:
+      - main
+      - "[0-9]+"
+      - "[0-9]+.[0-9]+"
+    types:
+      - closed
+  workflow_dispatch:
+
+jobs:
+  if_merged:
+    uses: josh-wong/actions/.github/workflows/auto-pr-reusable.yaml@main
+    secrets: inherit
+    with:
+      project_base_name: "passGen"
